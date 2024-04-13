@@ -1,0 +1,78 @@
+body {
+  background-color: #2a2b2a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+button { 
+  margin: 0px;
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-color: #7ab9c4;
+  border-radius: 8px;
+}
+
+button:hover { 
+  border-color: #1219de;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+body {
+  place-items: start;
+  padding: 0 4rem;
+}
+
+form {
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 1rem 0;
+  margin-bottom: 0px;
+  display: block;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  transition: border-color 0.25s;
+  color: #fff;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.games > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 2rem;
+  height: 8rem;
+  margin-left: 60px;
+  margin-top: 2rem;
+  width: 400px;
+  height:auto;
+}
+
+.games img {
+  height: 100%;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.games h2 {
+  margin: 0;
+}
+
+.games button {
+  margin-top: 5px;
+}
